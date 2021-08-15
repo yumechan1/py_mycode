@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<form method="post" action="/search4">
+  <h2>一个表单</h2>
+  <div>用户名: <input name="user_name" type="text"></div>
+  <div>密码：<input name="age" type="text"></div>
+  <button type="submit">提交</button>
+</form>
+{% endblock %}
